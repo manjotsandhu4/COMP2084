@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MVC Music Store</h2>
+
+<p> Welcome to our store</p>
+
+<ul>
+    <l1>@Html.ActionLink("Product one", "product", "Store", new {ProductName = "Product One" }, null)</l1><br />
+    <l1>@Html.ActionLink("Product two", "product", "Store", new { ProductName = "Product Two" }, null)</l1><br />
+    <l1>@Html.ActionLink("Product three", "product", "Store", new { ProductName = "Product Three" }, null)</l1>
+</ul>
